@@ -10,9 +10,15 @@
 //}
 
 //re assigning the value of the variable using var
+//
+//fun main(){
+//    var name:String= "Luffy"
+//    name = "Zorro"
+//    println(name)
+//}
 
-fun main(){
-    var name:String= "Luffy"
-    name = "Zorro"
+val name:String = "Luffy"
+
+fun main() {
     println(name)
 }

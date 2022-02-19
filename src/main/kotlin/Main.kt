@@ -17,8 +17,19 @@
 //    println(name)
 //}
 
-val name:String = "Luffy"
+//val name:String = "Luffy"
+//
+//fun main() {
+//    println(name)
+//}
+
+//addin a null variable
+val name: String? =null
+var greeting: String = "Jinbei"
 
 fun main() {
+    println(greeting)
     println(name)
+    greeting = "Moving closely"
+    println(greeting)
 }

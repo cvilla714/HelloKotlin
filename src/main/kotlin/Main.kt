@@ -46,11 +46,25 @@
 //}
 
 //applying when statement
-var greeting:String? = null
+//var greeting:String? = null
+//
+//fun main() {
+//    when (greeting){
+//        null -> println("Replacing null value")
+//        else -> println(greeting)
+//    }
+//}
+
+//how to add if statement to add assigned a new variable
+var greetings: String? = null
 
 fun main() {
-    when (greeting){
-        null -> println("Replacing null value")
-        else -> println(greeting)
+//    val newGreetings = if (greetings !=null) greetings else "Say something else"
+    val newGreetingUsingWhen = when(greetings){
+        null -> "No more null"
+        else -> greetings
     }
+//    println(newGreetings)
+    println(newGreetingUsingWhen)
 }
+

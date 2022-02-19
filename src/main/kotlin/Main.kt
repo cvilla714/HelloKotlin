@@ -24,12 +24,23 @@
 //}
 
 //addin a null variable
-val name: String? =null
-var greeting: String = "Jinbei"
+//val name: String? =null
+//var greeting: String = "Jinbei"
+//
+//fun main() {
+//    println(greeting)
+//    println(name)
+//    greeting = "Moving closely"
+//    println(greeting)
+//}
 
+//adding control flow with an if statement
+val greeting:String? = null
 fun main() {
-    println(greeting)
-    println(name)
-    greeting = "Moving closely"
-    println(greeting)
+    if (greeting!=null){
+        println(greeting)
+    }else{
+        println("Hi")
+    }
+
 }

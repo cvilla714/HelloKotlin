@@ -35,12 +35,22 @@
 //}
 
 //adding control flow with an if statement
-val greeting:String? = null
-fun main() {
-    if (greeting!=null){
-        println(greeting)
-    }else{
-        println("Hi")
-    }
+//val greeting:String? = null
+//fun main() {
+//    if (greeting!=null){
+//        println(greeting)
+//    }else{
+//        println("Hi")
+//    }
+//
+//}
 
+//applying when statement
+var greeting:String? = null
+
+fun main() {
+    when (greeting){
+        null -> println("Replacing null value")
+        else -> println(greeting)
+    }
 }
